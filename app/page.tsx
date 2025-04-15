@@ -25,7 +25,8 @@ export default function Home() {
       id: crypto.randomUUID(),
       content: promptText,
       role: "user",
-    };
+    }
+    append(msg)
   };
 
   return (
