@@ -25,8 +25,8 @@ export default function Home() {
       id: crypto.randomUUID(),
       content: promptText,
       role: "user",
-    }
-    append(msg)
+    };
+    append(msg);
   };
 
   return (
@@ -36,9 +36,7 @@ export default function Home() {
         {noMessage ? (
           <>
             <p className="starter-text">
-              The Ultimate place for Formula One super fans! Ask F1GPT anything
-              about the fantasic topic of F1 racing and it will come back with
-              the most up-to-date answers. We hope you enjoy!
+              Xin chào! Tôi có thể giúp gì cho bạn?
             </p>
             <br />
 

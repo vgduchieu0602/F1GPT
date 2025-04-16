@@ -3,10 +3,10 @@ import React from "react";
 
 const PromptSuggestionsRow = ({ onPromptClick }) => {
   const prompts = [
-    "Who is head of racing for Aston Martin's F1 Academy team?",
-    "Who is the highest paid F1 driver?",
-    "Who will be the newest driver for Ferrari?",
-    "Who is the current Fomula One World Driver's Champion",
+    "Hiện nay đang có những chương trình ưu đãi gì?",
+    "Hội viên sẽ có những đặc quyền gì?",
+    "Niềng răng có tác dụng gì?",
+    "Phẫu thuật tim chi phí bao nhiêu?",
   ];
   return (
     <div className="prompt-suggestion-row">

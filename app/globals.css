@@ -64,7 +64,7 @@ input[type="submit"] {
   font-size: 16px;
   border: none;
   color: #fff;
-  background-color: #411b8d;
+  background-color: green;
 }
 
 input:focus {
